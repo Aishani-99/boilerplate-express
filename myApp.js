@@ -1,39 +1,13 @@
 let express = require('express');
 let app = express();
 
+app.get('/', (req, res) => {
+    console.log("Hello World "); 
+    res.send("Check the console for 'Hello World'");
+});
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- module.exports = app;
+let port = 3000; 
+app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
