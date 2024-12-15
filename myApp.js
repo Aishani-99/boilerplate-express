@@ -1,5 +1,5 @@
-function logOp() { 
+// function logOp() { 
     console.log('"Hello World"'); 
-} 
+// } 
 
-logOp(); 
+// logOp(); 
